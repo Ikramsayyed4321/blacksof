@@ -1,0 +1,107 @@
+.container {
+  display: flex;
+  position: relative;
+  left: -90px;
+  max-width: 1600px;
+ 
+  margin: 0 auto;
+  margin-top: 40px;
+  align-items: end;
+  color: white;
+}
+.top_btn {
+  display: flex;
+  gap: 42px;
+}
+
+.contact_form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  background-color: whitesmoke;
+  color: black;
+  width: 990px;
+  border-radius: 25px;
+}
+.contact_form form {
+  display: flex;
+  gap: 20px;
+  padding-bottom: 320px;
+  flex-direction: column;
+}
+.form_control {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  position: relative;
+}
+.form_control input {
+  height: 40px;
+  padding: 0 8px;
+}
+.form_control textarea {
+  padding: 8px;
+}
+
+.form_control label {
+  font-size: 14px;
+  position: absolute;
+  top: -12px;
+  left: 10px;
+  background-color: white;
+  padding: 0 10px;
+}
+
+.formview{
+  position: relative;
+  left: -20px;
+  border: 10px;
+  width: 32vw;
+  height: 43vh;
+ margin-left: 20px;
+ padding: 20px;
+ 
+}
+
+.margintop{
+  position: relative;
+  left: 90px;
+  font-size: 40px;
+  font-weight: 200;
+  margin-bottom:  90px; 
+  margin-right: 70px;
+  color: gray;
+ margin-left: 50px;
+ padding: 50px;
+}
+
+.bold{
+  color: white;
+  position: relative;
+  margin-right: 30px;
+}
+
+.wordmax{
+  position: relative;
+  margin-right: 20px;
+  color:gray ;
+  font: 10px;
+ bottom: 34px;
+  left: -510px;
+}
+
+
+.upright{
+  position: relative;
+ 
+  color: gray;
+  left: -590px;
+  bottom: 130px;
+}
+
+.wordmin{
+  position: relative;
+  bottom: 80px;
+  color: gray;
+  left: -540px;
+}

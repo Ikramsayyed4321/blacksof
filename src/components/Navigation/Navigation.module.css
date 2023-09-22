@@ -1,0 +1,40 @@
+.navigation {
+  margin-top: 0;
+  padding: 0 8px;
+  display: flex;
+  height: 90vh;
+  width: 45vw;
+
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.navigation ul {
+  display: flex;
+  gap: 24px;
+  list-style-type: none;
+  font-weight: 500;
+  color: gray;
+}
+
+.bordering{
+  padding: 18px 10px;
+  
+  color: gray;
+ 
+}
+
+.space{
+  position: relative;
+  right: -200px;
+  border: 1px solid gray;
+  color: grey;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.logo{
+  position: relative;
+  left: -150px;
+}
